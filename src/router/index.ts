@@ -11,12 +11,12 @@ const routes: Array<RouteConfig> = [
     component: Todo
   },
   {
-    path: '/inquiry',
-    name: 'Inquiry',
+    path: '/review',
+    name: 'Review',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "inqiry" */ '../views/Inquiry.vue')
+    component: () => import(/* webpackChunkName: "review" */ '../views/Review.vue')
   }
 ]
 
